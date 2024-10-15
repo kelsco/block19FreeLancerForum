@@ -1,0 +1,42 @@
+#forum {
+    text-align: center;
+    align-items: center;
+    min-width: 300px;
+    max-width: 700px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid black;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(57, 232, 220);
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.freelancer {
+  display: flex;
+}
+
+.freelancer:first-child {
+    background-color: rgba(18, 135, 141, 0.799);
+    color: white;
+    font-weight: bold;
+  }
+
+span {
+  flex: 1;
+  padding: 3px;
+}
+
+body {
+  background-color: rgba(5, 110, 101, 0.787);
+}
+
+#averageStartingPrice {
+    font-weight: bold;
+    color: rgba(18, 135, 141, 0.799);
+    font-size: large;
+}
